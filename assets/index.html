@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HD Hotel Booking </title>
+    <!-- Include any additional stylesheets or scripts if needed -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div class="diamond">
+    <div class="form-wrap">
+        <h2>HD Hotel Booking </h2>
+        <form action="">
+            <div class="location">
+                <label for="location">LOCATION</label><br>
+                <input type="text" name="location" placeholder="Choose your location"><br>
+            </div>
+            <div class="guests">
+                <label for="guests">NUMBER OF GUESTS</label><br><br>
+                <button type="button" class="counter-btn" id="cnt-down">-</button>
+                <input type="text" id="guestNo" name="guests" value="1">
+                <button type="button" class="counter-btn" id="cnt-up">+</button>
+            </div>
+            <div class="dates">
+                <div class="arrival">
+                    <label for="arrival">ARRIVAL</label><br>
+                    <input name="arrival" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" placeholder="10/03/2016">
+                </div>
+                <div class="departure">
+                    <label for="departure">DEPARTURE</label><br>
+                    <input name="departure" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" placeholder="05/12/2023">
+                </div>
+            </div>
+            <button type="button" class="btn">BOOK NOW!</button>
+        </form>
+        <div class="linkbox">
+            <div class="links">
+                <div class="origin">
+                    <p>Check out Seth Coelen's original design over on dribbble</p>
+                    <a href="https://dribbble.com/shots/2464177-Daily-UI-067-Hotel-Booking" target="_blank">
+                        <i class="fa fa-dribbble"></i>
+                    </a>
+                </div>
+                <div class="me">
+                    <p>Why not take a look at my other pens while you're here</p>
+                    <a href="https://codepen.io/lewisvrobinson">
+                        <i class="fa fa-codepen"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Include any additional scripts if needed -->
+  <script src="scripts.js"></script>
+</body>
+</html>
